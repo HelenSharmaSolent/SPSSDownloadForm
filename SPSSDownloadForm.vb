@@ -21,11 +21,16 @@ Namespace SPSSDownloadForm
         Dim WithEvents customValidatorAccept As CustomValidator
 
         Private request As HttpRequest
-        Private response As HttpResponse
+https://github.com/HelenSharmaSolent/SPSSDownloadForm/edit/master/SPSSDownloadForm.vb#        Private response As HttpResponse
 
         Public Sub addToOutput(ByVal controlIn As Object)
             Me.Controls.Add(controlIn)
         End Sub
+        
+        public function dothis()
+        dim t as string = ""
+        return t
+        end function
 
         Private Sub SPSSDownloadForm_Init(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Init
 
