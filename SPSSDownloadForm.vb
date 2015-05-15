@@ -21,7 +21,7 @@ Namespace SPSSDownloadForm
         Dim WithEvents customValidatorAccept As CustomValidator
 
         Private request As HttpRequest
-https://github.com/HelenSharmaSolent/SPSSDownloadForm/edit/master/SPSSDownloadForm.vb#        Private response As HttpResponse
+        Private response As HttpResponse
 
         Public Sub addToOutput(ByVal controlIn As Object)
             Me.Controls.Add(controlIn)
