@@ -27,6 +27,11 @@ Namespace SPSSDownloadForm
             Me.Controls.Add(controlIn)
         End Sub
 
+
+        Public Sub thisfunction(ByVal controlIn2 As Object)
+            Me.Controls.Add(controlIn2)
+        End Sub
+
         Private Sub SPSSDownloadForm_Init(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Init
 
             request = HttpContext.Current.Request
