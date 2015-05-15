@@ -26,6 +26,11 @@ Namespace SPSSDownloadForm
         Public Sub addToOutput(ByVal controlIn As Object)
             Me.Controls.Add(controlIn)
         End Sub
+        
+        public function dothis()
+        dim t as string = ""
+        return t
+        end function
 
 
         Public Sub thisfunction(ByVal controlIn2 As Object)
